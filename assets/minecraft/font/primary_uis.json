@@ -1,0 +1,5 @@
+{
+  "providers": [
+    {"type": "bitmap", "file": "blockout/skillcheck_bg.png", "ascent": 20, "height": 40, "chars": ["\uA001"]}
+  ]
+}

@@ -1,0 +1,17 @@
+{"sources":[
+    {
+        "source":"entity",
+        "prefix":"entity/",
+        "type":"directory"
+    },
+    {
+        "source":"custom",
+        "prefix":"custom/",
+        "type":"directory"
+    },
+    {
+        "type": "directory",
+        "prefix": "player_animator/template/",
+        "source": "player_animator/template"
+    }
+]}

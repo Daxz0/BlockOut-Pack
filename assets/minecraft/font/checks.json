@@ -1,0 +1,18 @@
+{
+  "providers": [
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_right_45.png", "ascent": 20, "height": 40, "chars": ["\uA001"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_right_0.png", "ascent": 20, "height": 40, "chars": ["\uA002"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_right_135.png", "ascent": 20, "height": 40, "chars": ["\uA003"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_right_180.png", "ascent": 20, "height": 40, "chars": ["\uA004"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_right_225.png", "ascent": 20, "height": 40, "chars": ["\uA005"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_right_270.png", "ascent": 20, "height": 40, "chars": ["\uA006"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_right_315.png", "ascent": 20, "height": 40, "chars": ["\uA007"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_left_45.png", "ascent": 20, "height": 40, "chars": ["\uA008"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_left_0.png", "ascent": 20, "height": 40, "chars": ["\uA009"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_left_135.png", "ascent": 20, "height": 40, "chars": ["\uA010"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_left_180.png", "ascent": 20, "height": 40, "chars": ["\uA011"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_left_225.png", "ascent": 20, "height": 40, "chars": ["\uA012"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_left_270.png", "ascent": 20, "height": 40, "chars": ["\uA013"]},
+    {"type": "bitmap", "file": "blockout/checks/skillcheck_left_315.png", "ascent": 20, "height": 40, "chars": ["\uA014"]}
+  ]
+}

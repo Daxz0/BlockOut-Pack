@@ -1,0 +1,28 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_nugget"
+    },
+    "overrides": [
+
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+                "model": "item/fish/nox_cod"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+                "model": "item/fish/porgy"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+                "model": "item/fish/banshees_wail"
+        }
+
+    ]
+}

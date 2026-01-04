@@ -1,0 +1,26 @@
+{
+    "entity.fishing_bobber_custom": {
+      "sounds": [
+        {
+          "name": "custom/fishing_sound"
+        }
+      ],
+      "subtitle": "Throwing Rod..."
+    },
+    "music.background_1": {
+      "sounds": [
+        {
+          "name": "custom/background_music"
+        }
+      ],
+      "subtitle": "Background Music (I) - Created by Soup Can"
+    },
+    "music.background_2": {
+      "sounds": [
+        {
+          "name": "custom/background_music_2"
+        }
+      ],
+      "subtitle": "Background Music (II) - Created by Soup Can"
+    }
+  }

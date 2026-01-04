@@ -1,0 +1,46 @@
+{
+    "providers": [
+      {
+          "type": "bitmap",
+          "file": "ranks/owner_label.png",
+          "ascent": 7,
+          "height": 8,
+          "chars": ["\uA001"]
+      },
+      {
+          "type": "bitmap",
+          "file": "ranks/executive_label.png",
+          "ascent": 7,
+          "height": 8,
+          "chars": ["\uA002"]
+      },
+      {
+          "type": "bitmap",
+          "file": "ranks/admin_label.png",
+          "ascent": 7,
+          "height": 8,
+          "chars": ["\uA003"]
+      },
+      {
+          "type": "bitmap",
+          "file": "ranks/mod_label.png",
+          "ascent": 7,
+          "height": 8,
+          "chars": ["\uA004"]
+      },
+      {
+          "type": "bitmap",
+          "file": "ranks/vogue_label.png",
+          "ascent": 7,
+          "height": 8,
+          "chars": ["\uA010"]
+      },
+      {
+          "type": "bitmap",
+          "file": "ranks/member_label.png",
+          "ascent": 7,
+          "height": 8,
+          "chars": ["\uA021"]
+      }
+    ]
+  }

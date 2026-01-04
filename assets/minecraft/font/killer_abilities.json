@@ -1,0 +1,6 @@
+{
+  "providers": [
+    {"type": "bitmap", "file": "blockout/killer/ghost/ghost_cloak.png", "ascent": 20, "height": 40, "chars": ["\uA001"]},
+    {"type": "bitmap", "file": "blockout/killer/ghost/ghost_phase.png", "ascent": 20, "height": 40, "chars": ["\uA002"]}
+  ]
+}
