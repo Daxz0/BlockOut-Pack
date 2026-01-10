@@ -1,0 +1,6 @@
+{
+  "providers": [
+    {"type": "bitmap", "file": "blockout/generator/repair_gen.png", "ascent": 10, "height": 60, "chars": ["\uA001"]},
+    {"type": "bitmap", "file": "blockout/generator/repair_bar_filler.png", "ascent": -20, "height": 4, "chars": ["\uA002"]}
+  ]
+}

@@ -41,21 +41,20 @@ void main() {
         gl_Position.xy += vec2(0, -0.5);
     }
 
-    // actionbar shift
+    // actionbar shift for general ui/abilities, maybe i should move to the scoreboard/bossbar if anything?
     if(iColor == ivec3(255, 252, 252)){
         vec3 pos = Position;
         gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
         gl_Position.xy += vec2(0.7, 0);
     }
 
-    // bossbar shift
+    // bossbar shift for progressbar at the top
 
     if(iColor == ivec3(255, 250, 250)){
         vec3 pos = Position;
         gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
-        gl_Position.xy += vec2(2.0, 0);
+        gl_Position.xy += vec2(0, -1);
     }
-
 
 
 
