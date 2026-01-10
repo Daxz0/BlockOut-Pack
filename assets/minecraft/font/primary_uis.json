@@ -1,7 +1,6 @@
 {
   "providers": [
     {"type": "bitmap", "file": "blockout/skillcheck_bg.png", "ascent": 20, "height": 40, "chars": ["\uA001"]},
-    {"type": "bitmap", "file": "blockout/generator/repair_gen.png", "ascent": 1, "height": 10, "chars": ["\uA002"]},
-    {"type": "bitmap", "file": "blockout/generator/repair_bar_filler.png", "ascent": 1, "height": 10, "chars": ["\uA003"]}
+    {"type": "bitmap", "file": "blockout/primary_ui/generator_icon.png", "ascent": 30, "height": 40, "chars": ["\uA002"]}
   ]
 }

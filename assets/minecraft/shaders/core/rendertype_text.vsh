@@ -29,33 +29,24 @@ void main() {
     // vec2 normalized = pos.xy/pos.w;
 
     // title shift
-    // stop rendering text shadows
-    // if(iColor.r < 50 && iColor.g < 50 && iColor.b < 50) {
-    //     gl_Position = vec4(-2.0, -2.0, 0.0, 1.0);
-    //     return;
-    // }
-
-    if(iColor == ivec3(78, 92, 36)) {
-        vec3 pos = Position;
-        gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
-        gl_Position.xy += vec2(0, -0.5);
+    // stop rendering text shadows -- temp workaround while i wait for paper minimessage
+    if(iColor.r < 64 && iColor.g < 64 && iColor.b < 64) {
+        gl_Position = vec4(-2.0, -2.0, 0.0, 1.0);
+        return;
     }
 
-    // actionbar shift for general ui/abilities, maybe i should move to the scoreboard/bossbar if anything?
+    // shift for general ui
     if(iColor == ivec3(255, 252, 252)){
         vec3 pos = Position;
         gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
-        gl_Position.xy += vec2(0.7, 0);
+        gl_Position.xy += vec2(0.7, -1.7);
     }
-
-    // bossbar shift for progressbar at the top
-
-    if(iColor == ivec3(255, 250, 250)){
+    // seperate shift for generator numbers on general ui b/c shader doesnt like custom fonts being colored
+    if(iColor == ivec3(170, 170, 188)){
         vec3 pos = Position;
         gl_Position = ProjMat * ModelViewMat * vec4(pos, 1.0);
-        gl_Position.xy += vec2(0, -1);
+        gl_Position.xy += vec2(0.7, -1.7);
     }
-
 
 
 
