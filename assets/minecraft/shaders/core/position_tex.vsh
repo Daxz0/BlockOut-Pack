@@ -1,32 +1,19 @@
 #version 330
 
-#moj_import <minecraft:dynamictransforms.glsl>
-#moj_import <minecraft:projection.glsl>
+#extension GL_ARB_separate_shader_objects : require
 
+#include <minecraft:dynamictransforms.glsl>
+#include <minecraft:projection.glsl>
 
-in vec3 Position;
-in vec2 UV0;
-in vec4 Color;
+layout(location = 0) in vec3 Position;
+layout(location = 1) in vec2 UV0;
 
-uniform sampler2D Sampler0;
-uniform vec2 ScreenSize;
-uniform float GuiScale;
-
-out vec2 texCoord0;
-out vec4 vertexColor;
-
+layout(location = 0) out vec2 texCoord0;
+layout(location = 1) out vec4 vertexColor;
 
 void main() {
-    vec2 pos = Position.xy;
+    vertexColor = (Position.z == 27.0) ? vec4(1.0, 0.0, 0.0, 1.0) : vec4(1.0);
 
-    float GuiScale = ScreenSize.x * 0.5 * ProjMat[0][0];
-    vec2 anchor = vec2(ScreenSize.x * 0.5, ScreenSize.y) / GuiScale;
-
-
-    if (Position.z == 27) {
-        vertexColor = vec4(1.0,0.0,0.0,1.0);
-    }
-
-    gl_Position = ProjMat * ModelViewMat * vec4(pos, Position.z, 1.0);
+    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     texCoord0 = UV0;
 }
